@@ -1234,6 +1234,8 @@ footer .copyright .Cpyrt-wrp .frt01 p {
   outline: none;
   height: 294px;
   overflow: scroll;
+  overflow-x:hidden;
+  overflow-y:hidden;
 }
 
 .chat-popup form textarea:focus {

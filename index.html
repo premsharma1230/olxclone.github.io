@@ -3,663 +3,948 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WhatsApp</title>
-    <link rel="icon" href="image/fevicon.png" type="image/x-icon">
+    <title>OLX - Free classifieds in India, Budget</title>
+    <link rel="stylesheet" href="css/fontawesome-free-5.13.0-web/css/all.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/style.css">
+     <link rel="icon" href="image/fevicon.png">
 </head>
 <body>
-    <main>
-        <header>
-             <div class="container">
-                <div class="Wrapper">
-                 <div class="R1">
-                     <div class="logo">
-                         <img src="image/logo.jpg" alt="Logo">
-                     </div>
-                 <div class="rchild">
-                     <div role="button" title="status" class="status">
-                     <span>
-                        <svg id="ee51d023-7db6-4950-baf7-c34874b80976" xmlns="http://www.w3.org/2000/svg"
-                         viewBox="0 0 24 24" width="24" height="24">
-                         <path fill="currentColor" d="M12 20.664a9.163 9.163 0 0 1-6.521-2.702.977.977 0 0 1 1.381-1.381 7.269 7.269 0 0 0 10.024.244.977.977 0 0 1 1.313 1.445A9.192 9.192 0 0 1 12 20.664zm7.965-6.112a.977.977 0 0 1-.944-1.229 7.26 7.26 0 0 0-4.8-8.804.977.977 0 0 1 .594-1.86 9.212 9.212 0 0 1 6.092 11.169.976.976 0 0 1-.942.724zm-16.025-.39a.977.977 0 0 1-.953-.769 9.21 9.21 0 0 1 6.626-10.86.975.975 0 1 1 .52 1.882l-.015.004a7.259 7.259 0 0 0-5.223 8.558.978.978 0 0 1-.955 1.185z"></path>
-                        </svg>
-                    </span>  
-                     </div>
-                     <div role="button" title="new chat" class="Menu">
-                        <span>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M19.005 3.175H4.674C3.642 3.175 3 3.789 3 4.821V21.02l3.544-3.514h12.461c1.033 0 2.064-1.06 2.064-2.093V4.821c-.001-1.032-1.032-1.646-2.064-1.646zm-4.989 9.869H7.041V11.1h6.975v1.944zm3-4H7.041V7.1h9.975v1.944z"></path></svg>
-                        </span>
-                     </div>
-                     <div role="button" title="menu" class="Menusetting">
-                        <span>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12 7a2 2 0 1 0-.001-4.001A2 2 0 0 0 12 7zm0 2a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 9zm0 6a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 15z"></path></svg>
-                        </span>
-                     </div>
+    <!-- <div class="grid-container"> -->
+ <header class="myHeader">
+     <div class="container">
+         <nav>
+             <div class="logo">
+                 <a href="#">
+                    <svg width="48px" height="48px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
+                    <path class="logo-color" d="M661.333 256v512h-128v-512h128zM277.333 298.667c117.824 0 213.333 95.531 213.333 213.333s-95.509 213.333-213.333 213.333c-117.824 0-213.333-95.531-213.333-213.333s95.509-213.333 213.333-213.333zM794.496 384l37.504 37.504 37.504-37.504h90.496v90.496l-37.504 37.504 37.504 37.504v90.496h-90.496l-37.504-37.504-37.504 37.504h-90.496v-90.496l37.504-37.504-37.504-37.504v-90.496h90.496zM277.333 426.667c-47.061 0-85.333 38.293-85.333 85.333s38.272 85.333 85.333 85.333c47.061 0 85.333-38.293 85.333-85.333s-38.272-85.333-85.333-85.333z">
+                    </path></svg>   
+                 </a>
+             </div>
+             <div class="m-section">
+                 <div  class="f1">
+                    <span class="Fspan01"><svg width="25px" height="25px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-77aaa" d="M448 725.333c-152.917 0-277.333-124.416-277.333-277.333s124.416-277.333 277.333-277.333c152.917 0 277.333 124.416 277.333 277.333s-124.416 277.333-277.333 277.333v0zM884.437 824.107v0.021l-151.915-151.936c48.768-61.781 78.144-139.541 78.144-224.192 0-199.979-162.688-362.667-362.667-362.667s-362.667 162.688-362.667 362.667c0 199.979 162.688 362.667 362.667 362.667 84.629 0 162.411-29.376 224.171-78.144l206.144 206.144h60.352v-60.331l-54.229-54.229z"></path></svg></span> 
+                    <input type="text1" onclick="inpClick()" name="India" value="India" required id="Ind"> 
+                 <div id="mDrpbx">
+                   <div class="H01cnt"> 
+                       <h2>Use current location</h2>
+                      <span>Location blocked. Check browser/phone settings.</span>
+                    </div>
+                 <ul>
+                <h5>POPULAR LOCATIONS</h5>
+                  <li> <a href="#">Kerala</a></li> 
+                  <li> <a href="#">Tamil Nadu</a></li> 
+                  <li> <a href="#">Punjab</a></li> 
+                  <li> <a href="#">Maharashtra</a></li>                    
+                </ul>
+                    </ul>
                  </div>
                  </div>
-                
+            
+                 <div  class="f2">
+                    <span class="Fspan02"><svg width="25px" height="25px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-77aaa" d="M448 725.333c-152.917 0-277.333-124.416-277.333-277.333s124.416-277.333 277.333-277.333c152.917 0 277.333 124.416 277.333 277.333s-124.416 277.333-277.333 277.333v0zM884.437 824.107v0.021l-151.915-151.936c48.768-61.781 78.144-139.541 78.144-224.192 0-199.979-162.688-362.667-362.667-362.667s-362.667 162.688-362.667 362.667c0 199.979 162.688 362.667 362.667 362.667 84.629 0 162.411-29.376 224.171-78.144l206.144 206.144h60.352v-60.331l-54.229-54.229z"></path></svg></span> 
+                    <input type="text" name="text" placeholder="Find Cars, mobiles phone and more" required>
+                 <span class="sp1"></span>
                 </div>
              </div>
-        </header>
-    <section class="Mainweb">
-        <!-- <div class="container"> -->
-     <div class="maincontent">
-        <div class="LeftSide cmn">
-             <div class="MainWrp">
-                <div class="head">
-                        <label for="#">
-                            <input type="text" name="Sname" placeholder="Search or  start new chat">
-                        </label>
+             <div class="last">
+                 <div class="a1 wow fadeIn  animated" style="visibility: visible; animation-name: fadeIn;"> <h3>ENGLISH</h3> 
+                   <button id="btn"  onclick="myFnt()" style="background: none;">
+                    <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="fa-chevron-down1" fill-rule="evenodd"><path class="rui-77aaa" d="M85.392 277.333h60.331l366.336 366.336 366.336-366.336h60.331v60.331l-408.981 409.003h-35.307l-409.045-409.003z"></path></svg>
+                   </button> 
+                  <div id="Box_frst">
+                   <ul>
+                       <li>ENGLISH</li>
+                       <li>Hindi</li>
+                   </ul>
+                   </div>
+                </div> 
+                   <div class="a2"> <h3><a href="#">Login</a> </h3>
                 </div>
-                <div class="btnwrp">
-                   <a href="#" role="button" onclick="openProduct('product1')">
-                       <div class="bt1 cmn2">
-                        <div class="imgwrp">
-                            <img src="image/Alexa.jpg" alt="img">
-                        </div>
-                         <div class="content">
-                          <h2>Max Doe</h2>
-                          <h5>not special</h5>
-                         </div>
-                    </div>
-                    </a>
-                    <a href="#" role="button" onclick="openProduct('product2')">
-                    <div class="bt2 cmn2">
-                        <div class="imgwrp">
-                            <img src="image/Alexa3.jpg" alt="img">
-                        </div>
-                         <div class="content">
-                          <h2>Max Doe</h2>
-                          <h5>not special</h5>
-                         </div>
-                    </div>
-                   </a>
-                   <a href="#" role="button" onclick="openProduct('product3')">
-                    <div class="bt3 cmn2">
-                        <div class="imgwrp">
-                            <img src="image/Rax2.jpg" alt="img">
-                        </div>
-                         <div class="content">
-                          <h2>Max Doe</h2>
-                          <h5>not special</h5>
-                         </div>
-                    </div>
-                   </a>
-                   <a href="#" role="button" onclick="openProduct('product4')">
-                    <div class="bt4 cmn2">
-                        <div class="imgwrp">
-                            <img src="image/Rax1.jpg" alt="img">
-                        </div>
-                         <div class="content">
-                          <h2>Max Doe</h2>
-                          <h5>not special</h5>
-                         </div>
-                    </div>
-                  </a>
-                  <a href="#" role="button" onclick="openProduct('product5')">
-                    <div class="bt5 cmn2">
-                        <div class="imgwrp">
-                            <img src="image/Alexa3.jpg" alt="img">
-                        </div>
-                         <div class="content">
-                          <h2>Max Doe</h2>
-                          <h5>not special</h5>
-                         </div>
-                    </div>
-                  </a>
-                  <a href="#" role="button" onclick="openProduct('product6')">
-                    <div class="bt6 cmn2">
-                        <div class="imgwrp">
-                            <img src="image/Alex2.jpg" alt="img">
-                        </div>
-                         <div class="content">
-                          <h2>Max Doe</h2>
-                          <h5>not special</h5>
-                         </div>
-                    </div>
-                 </a>
-                 <a href="#" role="button" onclick="openProduct('product7')">
-                    <div class="bt7 cmn2">
-                        <div class="imgwrp">
-                            <img src="image/Rax3.jpg" alt="img">
-                        </div>
-                         <div class="content">
-                          <h2>Max Doe</h2>
-                          <h5>not special</h5>
-                         </div>
-                    </div>
-                 </a>
-                 <a href="#" role="button" onclick="openProduct('product8')">
-                    <div class="bt8 cmn2">
-                        <div class="imgwrp">
-                            <img src="image/Rax4.jpg" alt="img">
-                        </div>
-                         <div class="content">
-                          <h2>Max Doe</h2>
-                          <h5>not special</h5>
-                         </div>
-                    </div>
-                 </a>
-                 <a href="#" role="button" onclick="openProduct('product9')">
-                    <div class="bt9 cmn2">
-                        <div class="imgwrp">
-                            <img src="image/Rax1.jpg" alt="img">
-                        </div>
-                         <div class="content">
-                          <h2>Max Doe</h2>
-                          <h5>not special</h5>
-                         </div>
-                    </div>
-                 </a>
-                 <a href="#" role="button" onclick="openProduct('product10')">
-                    <div class="bt10 cmn2">
-                        <div class="imgwrp">
-                            <img src="image/Alexa.jpg" alt="img">
-                        </div>
-                         <div class="content">
-                          <h2>Max Doe</h2>
-                          <h5>not special</h5>
-                         </div>
-                    </div>
-                 </a>
-                 <a href="#" role="button" onclick="openProduct('product11')">
-                    <div class="bt11 cmn2">
-                        <div class="imgwrp">
-                            <img src="image/logo.jpg" alt="img">
-                        </div>
-                         <div class="content">
-                          <h2>Max Doe</h2>
-                          <h5>not special</h5>
-                         </div>
-                    </div>
-                 </a>
-                 <a href="#" role="button" onclick="openProduct('product12')">
-                    <div class="bt12 cmn2">
-                        <div class="imgwrp">
-                            <img src="image/Rax2.jpg" alt="img">
-                        </div>
-                         <div class="content">
-                          <h2>Max Doe</h2>
-                          <h5>not special</h5>
-                         </div>
-                    </div>
-                 </a>
-                 <a href="#" role="button" onclick="openProduct('product13')">
-                    <div class="bt13 cmn2">
-                        <div class="imgwrp">
-                            <img src="image/Alexa3.jpg" alt="img">
-                        </div>
-                         <div class="content">
-                          <h2>Max Doe</h2>
-                          <h5>not special</h5>
-                         </div>
-                    </div>
-                 </a>
-                 <a href="#" role="button" onclick="openProduct('product14')">
-                    <div class="bt14 cmn2">
-                        <div class="imgwrp">
-                            <img src="image/Rax3.jpg" alt="img">
-                        </div>
-                         <div class="content">
-                          <h2>Max Doe</h2>
-                          <h5>not special</h5>
-                         </div>
-                    </div>
-                 </a>
+                 <div class="a3" > 
+                    <h3 onclick="myPopup()"> <a href="#"><b>+</b> SELL</a></h3>
+                </div>
+               </div>
+         </nav>
+     
+     </div>
+ </header> 
+  <!--Links  -->
+  <div class="links">
+      <div class="container">
+    <ul>
+        <li class="Frt_Link" onclick="mDropbox()">
+            <a href="#"> All Categories
+                <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="fas fa-chevron-down" fill-rule="evenodd"><path class="rui-77aaa" d="M85.392 277.333h60.331l366.336 366.336 366.336-366.336h60.331v60.331l-408.981 409.003h-35.307l-409.045-409.003z"></path></svg>
+        </a>
+        <div id="Categories">
+        <div class="ctr-Wrapper wow fadeIn  animated" style="visibility: visible; animation-name: fadeIn;">
+            <div class="headCnt-wrp1">
+                <div class="ctwrp">
+                    <h2>Cars</h2>
+                    <a href="#">Cars</a>
+                    <a href="#"> Commercial & Other Vehicles</a>
+                    <a href="#">Spare Parts</a>
+                </div>
+                <div class="ctwrp">
+                <h2>Properties</h2>
+                <a href="#">For Sale: Houses & Apartments</a>
+                <a href="#">For Rent: Houses & Apartments</a>
+                <a href="#">Lands & Plots</a>
+                <a href="#">For Rent: Shops & Offices</a>
+                <a href="#">For Sale: Shops & Offices</a>
+                <a href="#">PG & Guest Houses</a>
+                </div>
+                <div class="ctwrp">
+                    <h2>mobile</h2>
+                    <a href="#">mobile</a>
+                    <a href="#"> Commercial & Other Vehicles</a>
+                    <a href="#">Tablet</a>
                 </div>
             </div>
+            <div class="headCnt-wrp1">
+                <div class="ctwrp">
+                    <h2>Jobs</h2>
+                    <a href="#"> Data entry & Back office</a>
+                    <a href="#">Sales & Marketing</a>
+                    <a href="#">BPO & Telecaller</a>
+                    <a href="#">Driver</a> 
+                    <a href="#">Sales & Marketing</a>
+                    <a href="#">BPO & Telecaller</a>
+                    <a href="#">Driver</a>
+                    <a href="#">Sales & Marketing</a>
+                    <a href="#">BPO & Telecaller</a>
+                    <a href="#">Driver</a>
+                    <a href="#">Sales & Marketing</a>
+                    <a href="#">BPO & Telecaller</a>
+                    <a href="#">Driver</a>
+                </div>
+                <div class="ctwrp">
+                    <h2>Bikes</h2>
+                    <a href="#">Motorcycles</a>
+                    <a href="#">Scooter</a>
+                </div>
+            </div>
+            <div class="headCnt-wrp1">
+            <div class="ctwrp">
+                <h2>Electronics & Appliances</h2>
+                <a href="#">Computer</a>
+                <a href="#">Fridge</a>
+                <a href="#">lorem</a>
+                <a href="#">Lorem, ipsum.</a>
+                <a href="#">Lorem, ipsum.</a>
+            </div>
+            <div class="ctwrp">
+                <h2>Furniture</h2>
+                <a href="#">Sofa</a>
+                <a href="#">Bed</a>
+                <a href="#">lorem</a>
+                <a href="#">Lorem, ipsum.</a>
+                <a href="#">Lorem, ipsum.</a>
+            </div>
+            </div>
+            <div class="headCnt-wrp1">
+           <div class="ctwrp">
+            <h2>Books, Sports & Hobbies</h2>
+            <a href="#">Book</a>
+            <a href="#">Gym</a>
+            <a href="#">lorem</a>
+            <a href="#">Lorem, ipsum.</a>
+            <a href="#">Lorem, ipsum.</a>   
+         </div>
+         <div class="ctwrp">
+            <h2>Pets</h2>
+            <a href="#">Fish</a>
+            <a href="#">Dog</a>
+            <a href="#">lorem</a>
+            <a href="#">Lorem, ipsum.</a>
+            <a href="#">Lorem, ipsum.</a>   
+         </div>
+         <div class="ctwrp">
+            <h2>Service</h2>
+            <a href="#">Electronic & Computer</a>
+            <a href="#">Education & classes</a>
+            <a href="#">lorem</a>
+            <a href="#">Lorem, ipsum.</a>
+            <a href="#">Other Service</a>   
+         </div>
+        </div>  
+    </div>
+ </div>
+       </li>
+        <li> <a href="#">Cars</a></li>
+        <li> <a href="#">Motorcycles</a></li>
+        <li> <a href="#">mobile phones</a></li>
+        <li> <a href="#">For sale: House & apartment</a></li>
+        <li> <a href="#">Scooters</a></li>
+        <li> <a href="#">Commercial & othe vehicles</a></li>
+        <li> <a href="#">For rent: House & apartment</a></li>
+    </ul>
+    </div>
+</div>
+ <!-- popupp -->
+ <div class="popup" id="main01">
+   <div class="content wow fadeIn  animated" style="visibility: visible; animation-name: fadeIn;">
+    <span id="close01" onclick="document.getElementById('main01').style.display='none'" class="close" title="Close Modal">×</span>
+       <div class="slider owl-carousel">
+           <div class="common">
+           <img src="image/guitar.png" alt="guitar">
+            <p>Help make OLX safer place to buy and sale</p>
+         </div>
+         <div class="common">
+            <img src="image/luvheart.png" alt="heart">
+            <p>Help make OLX safer place to buy and sale</p>
           </div>
-    
-  <div class="RightSide cmn">
-    <div class="R2 product" id="product1">
-      <div class="R2child">
-        <div class="f1">
-           <figure>
-            <img src="image/Alexa.jpg" alt="img">
-            </figure> 
-          <div class="name">
-              <h2>Ronny sharma</h2>
-              <h5>last seen today at 8:40 am</h5>
+          <div class="common">
+            <img src="image/guitar.png" alt="guitar">
+             <p>Help make OLX safer place to buy and sale</p>
           </div>
        </div>
-         <div class="f2">
-             <div class="searchbar">
-                 <div role="button" title="Search" class="searchicon">
-                <span>
-                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M15.9 14.3H15l-.3-.3c1-1.1 1.6-2.7 1.6-4.3 0-3.7-3-6.7-6.7-6.7S3 6 3 9.7s3 6.7 6.7 6.7c1.6 0 3.2-.6 4.3-1.6l.3.3v.8l5.1 5.1 1.5-1.5-5-5.2zm-6.2 0c-2.6 0-4.6-2.1-4.6-4.6s2.1-4.6 4.6-4.6 4.6 2.1 4.6 4.6-2 4.6-4.6 4.6z"></path></svg>
-                </span>
-                 </div>
-             </div>
-             <div role="button" title="setting" class="profileSetting" onclick="mDropbox()">
-               <span>
-                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12 7a2 2 0 1 0-.001-4.001A2 2 0 0 0 12 7zm0 2a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 9zm0 6a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 15z"></path></svg>
+       <div class="socailmedia">
+       <ul>
+           <button><a href="#">Connect with phone</a></button>
+           <button><a href="#">Connect with Facebook</a></button>
+           <button><a href="#">Connect with google</a></button>
+           <button><a href="#">Connect with email</a></button>
+       </ul>
+       <p>we won't share your personal detail with any one else</p>
+   </div>
+  </div>
+</div>
+ <!-- banner -->
+      <div class="banner">
+    </div>
+    <!-- main-content -->
+<div class="main">
+   <div class="container">
+       <div class="MainContent-wrapper">
+           <div class="cnt-head">
+               <h2>Based on your last search</h2>
+               <a href="#">View more</a>
+           </div> 
+           <div class="MainContent1 wow fadeIn  animated" style="visibility: visible; animation-name: fadeIn;">
+           <div class="Cnt01 cmn1">
+               <figure>
+                   <span class="span1" style="position: absolute;">Featured</span>
+                   <img src="image/cover1.jpg" alt="img1">
+                   <span class="span2">
+                    <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
+                        <path class="rui-77aaa"
+                         d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z">
+                     </path>
+                 </svg>
                </span>
-               <div id="Categories1">
-                 <ul>
-                     <li>Contact info</li>
-                     <li>Contact info</li>
-                     <li>Contact info</li>
-                     <li>Contact info</li>
-                 </ul>
-               </div>
-             </div>
-         </div>
-        </div>
-        <div class="Rmain">
-            <p>01 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae nam adipisci
-              corrupti perspiciatis porro quod! Quos dolore nesciunt sequi temporibus!
-           </p> 
-         </div>
-    </div>
-    <div class="R2 product" id="product2" style="display: none;">
-        <div class="R2child">
-          <div class="f1">
-             <figure><img src="image/Alexa3.jpg" alt="img"></figure> 
-            <div class="name">
-                <h2>Ronny sharma</h2>
-                <h5>last seen today at 8:40 am</h5>
-            </div>
-         </div>
-           <div class="f2">
-               <div class="searchbar">
-                   <div role="button" title="Search" class="searchicon">
-                  <span>
-                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M15.9 14.3H15l-.3-.3c1-1.1 1.6-2.7 1.6-4.3 0-3.7-3-6.7-6.7-6.7S3 6 3 9.7s3 6.7 6.7 6.7c1.6 0 3.2-.6 4.3-1.6l.3.3v.8l5.1 5.1 1.5-1.5-5-5.2zm-6.2 0c-2.6 0-4.6-2.1-4.6-4.6s2.1-4.6 4.6-4.6 4.6 2.1 4.6 4.6-2 4.6-4.6 4.6z"></path></svg>
+               </figure>
+               <figcaption class="fig1">
+                   <h2>₹ 23,00,000</h2>
+                    <h6>2014-65,00 km</h6>
+                    <p>Lorem ipsum dolor sit amet</p>
+                    <span>AUG 23</span>
+               </figcaption>
+           </div>
+           <div class="Cnt02 cmn1">
+               <figure>
+                  <span class="span1" style="position: absolute;">Featured</span>
+                   <img src="image/cover3.jpg" alt="img1">
+                   <span class="span2">
+                    <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
+                        <path class="rui-77aaa"
+                         d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z">
+                     </path>
+                 </svg>
+               </span>
+               </figure>
+               <figcaption class="fig1">
+                   <h2>₹ 23,00,000</h2>
+                    <h6>2014-65,00 km</h6>
+                    <p>Lorem ipsum dolor sit amet</p>
+                    <span>AUG 23</span>
+               </figcaption>
+           </div>
+           <div class="Cnt03 cmn1">
+               <figure>
+                   <span class="span1" style="position: absolute;">Featured</span>
+                   <img src="image/cover2.jpg" alt="img1">
+                   <span class="span2">
+                    <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
+                        <path class="rui-77aaa"
+                         d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z">
+                     </path>
+                 </svg>
+               </span>
+               </figure>
+               <figcaption class="fig1">
+                   <h2>₹ 23,00,000</h2>
+                    <h6>2014-65,00 km</h6>
+                    <p>Lorem ipsum dolor sit amet</p>
+                    <span>AUG 23</span>
+               </figcaption>
+           </div>
+           <div class="Cnt04 cmn1">
+               <figure>  
+                   <img src="image/cover4.jpg" alt="img1">
+                   <span class="span2">
+                       <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
+                           <path class="rui-77aaa"
+                            d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z">
+                        </path>
+                    </svg>
                   </span>
-                   </div>
-               </div>
-               <div role="button" title="setting" class="profileSetting">
-                 <span>
-                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12 7a2 2 0 1 0-.001-4.001A2 2 0 0 0 12 7zm0 2a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 9zm0 6a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 15z"></path></svg>
-                 </span>
-               </div>
+               </figure>
+               <figcaption>
+                   <h2>₹ 23,00,000</h2>
+                    <h6>2014-65,00 km</h6>
+                    <p>Lorem ipsum dolor sit amet</p>
+                    <span>AUG 23</span>
+               </figcaption>
            </div>
-          </div>
-          <div class="Rmain">
-            <p>02 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae nam adipisci
-              corrupti perspiciatis porro quod! Quos dolore nesciunt sequi temporibus!
-           </p> 
-         </div>
-      </div>
-      <div class="R2 product" id="product3" style="display: none;">
-        <div class="R2child">
-          <div class="f1">
-             <figure><img src="image/Rax2.jpg" alt="profileLogo"></figure> 
-            <div class="name">
-                <h2>Ronny sharma</h2>
-                <h5>last seen today at 8:40 am</h5>
-            </div>
-         </div>
-           <div class="f2">
-               <div class="searchbar">
-                   <div role="button" title="Search" class="searchicon">
-                  <span>
-                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M15.9 14.3H15l-.3-.3c1-1.1 1.6-2.7 1.6-4.3 0-3.7-3-6.7-6.7-6.7S3 6 3 9.7s3 6.7 6.7 6.7c1.6 0 3.2-.6 4.3-1.6l.3.3v.8l5.1 5.1 1.5-1.5-5-5.2zm-6.2 0c-2.6 0-4.6-2.1-4.6-4.6s2.1-4.6 4.6-4.6 4.6 2.1 4.6 4.6-2 4.6-4.6 4.6z"></path></svg>
-                  </span>
-                   </div>
-               </div>
-               <div role="button" title="setting" class="profileSetting">
-                 <span>
-                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12 7a2 2 0 1 0-.001-4.001A2 2 0 0 0 12 7zm0 2a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 9zm0 6a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 15z"></path></svg>
-                 </span>
-               </div>
-           </div>
-          </div>
-          <div class="Rmain">
-            <p>03 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae nam adipisci
-              corrupti perspiciatis porro quod! Quos dolore nesciunt sequi temporibus!
-           </p> 
-         </div>
-      </div>
-      <div class="R2 product" id="product4" style="display: none;">
-        <div class="R2child">
-          <div class="f1">
-             <figure><img src="image/Rax1.jpg" alt="profileLogo"></figure> 
-            <div class="name">
-                <h2>Ronny sharma</h2>
-                <h5>last seen today at 8:40 am</h5>
-            </div>
-         </div>
-           <div class="f2">
-               <div class="searchbar">
-                   <div role="button" title="Search" class="searchicon">
-                  <span>
-                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M15.9 14.3H15l-.3-.3c1-1.1 1.6-2.7 1.6-4.3 0-3.7-3-6.7-6.7-6.7S3 6 3 9.7s3 6.7 6.7 6.7c1.6 0 3.2-.6 4.3-1.6l.3.3v.8l5.1 5.1 1.5-1.5-5-5.2zm-6.2 0c-2.6 0-4.6-2.1-4.6-4.6s2.1-4.6 4.6-4.6 4.6 2.1 4.6 4.6-2 4.6-4.6 4.6z"></path></svg>
-                  </span>
-                   </div>
-               </div>
-               <div role="button" title="setting" class="profileSetting">
-                 <span>
-                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12 7a2 2 0 1 0-.001-4.001A2 2 0 0 0 12 7zm0 2a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 9zm0 6a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 15z"></path></svg>
-                 </span>
-               </div>
-           </div>
-          </div>
-          <div class="Rmain">
-            <p>04 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae nam adipisci
-              corrupti perspiciatis porro quod! Quos dolore nesciunt sequi temporibus!
-           </p> 
-         </div>
-      </div>
-      <!-- 5 -->
-      <div class="R2 product" id="product5" style="display: none;">
-        <div class="R2child">
-          <div class="f1">
-             <figure><img src="image/Alexa3.jpg" alt="profileLogo"></figure> 
-            <div class="name">
-                <h2>Ronny sharma</h2>
-                <h5>last seen today at 8:40 am</h5>
-            </div>
-         </div>
-           <div class="f2">
-               <div class="searchbar">
-                   <div role="button" title="Search" class="searchicon">
-                  <span>
-                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M15.9 14.3H15l-.3-.3c1-1.1 1.6-2.7 1.6-4.3 0-3.7-3-6.7-6.7-6.7S3 6 3 9.7s3 6.7 6.7 6.7c1.6 0 3.2-.6 4.3-1.6l.3.3v.8l5.1 5.1 1.5-1.5-5-5.2zm-6.2 0c-2.6 0-4.6-2.1-4.6-4.6s2.1-4.6 4.6-4.6 4.6 2.1 4.6 4.6-2 4.6-4.6 4.6z"></path></svg>
-                  </span>
-                   </div>
-               </div>
-               <div role="button" title="setting" class="profileSetting">
-                 <span>
-                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12 7a2 2 0 1 0-.001-4.001A2 2 0 0 0 12 7zm0 2a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 9zm0 6a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 15z"></path></svg>
-                 </span>
-               </div>
-           </div>
-          </div>
-          <div class="Rmain">
-            <p>05 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae nam adipisci
-              corrupti perspiciatis porro quod! Quos dolore nesciunt sequi temporibus!
-           </p> 
-         </div>
-      </div>
-    <!-- 6 -->
-    <div class="R2 product" id="product6" style="display: none;">
-        <div class="R2child">
-          <div class="f1">
-             <figure><img src="image/Alex2.jpg" alt="profileLogo"></figure> 
-            <div class="name">
-                <h2>Ronny sharma</h2>
-                <h5>last seen today at 8:40 am</h5>
-            </div>
-         </div>
-           <div class="f2">
-               <div class="searchbar">
-                   <div role="button" title="Search" class="searchicon">
-                  <span>
-                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M15.9 14.3H15l-.3-.3c1-1.1 1.6-2.7 1.6-4.3 0-3.7-3-6.7-6.7-6.7S3 6 3 9.7s3 6.7 6.7 6.7c1.6 0 3.2-.6 4.3-1.6l.3.3v.8l5.1 5.1 1.5-1.5-5-5.2zm-6.2 0c-2.6 0-4.6-2.1-4.6-4.6s2.1-4.6 4.6-4.6 4.6 2.1 4.6 4.6-2 4.6-4.6 4.6z"></path></svg>
-                  </span>
-                   </div>
-               </div>
-               <div role="button" title="setting" class="profileSetting">
-                 <span>
-                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12 7a2 2 0 1 0-.001-4.001A2 2 0 0 0 12 7zm0 2a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 9zm0 6a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 15z"></path></svg>
-                 </span>
-               </div>
-           </div>
-          </div>
-          <div class="Rmain">
-            <p>07 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae nam adipisci
-              corrupti perspiciatis porro quod! Quos dolore nesciunt sequi temporibus!
-           </p> 
-         </div>
-      </div>
-        <!-- 7 -->
-    <div class="R2 product" id="product7" style="display: none;">
-        <div class="R2child">
-          <div class="f1">
-             <figure><img src="image/Rax3.jpg" alt="profileLogo"></figure> 
-            <div class="name">
-                <h2>Ronny sharma</h2>
-                <h5>last seen today at 8:40 am</h5>
-            </div>
-         </div>
-           <div class="f2">
-               <div class="searchbar">
-                   <div role="button" title="Search" class="searchicon">
-                  <span>
-                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M15.9 14.3H15l-.3-.3c1-1.1 1.6-2.7 1.6-4.3 0-3.7-3-6.7-6.7-6.7S3 6 3 9.7s3 6.7 6.7 6.7c1.6 0 3.2-.6 4.3-1.6l.3.3v.8l5.1 5.1 1.5-1.5-5-5.2zm-6.2 0c-2.6 0-4.6-2.1-4.6-4.6s2.1-4.6 4.6-4.6 4.6 2.1 4.6 4.6-2 4.6-4.6 4.6z"></path></svg>
-                  </span>
-                   </div>
-               </div>
-               <div role="button" title="setting" class="profileSetting">
-                 <span>
-                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12 7a2 2 0 1 0-.001-4.001A2 2 0 0 0 12 7zm0 2a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 9zm0 6a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 15z"></path></svg>
-                 </span>
-               </div>
-           </div>
-          </div>
-          <div class="Rmain">
-            <p>07 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae nam adipisci
-              corrupti perspiciatis porro quod! Quos dolore nesciunt sequi temporibus!
-           </p> 
-         </div>
-      </div>  
-      <!-- 8 -->
-      <div class="R2 product" id="product8" style="display: none;">
-          <div class="R2child">
-            <div class="f1">
-               <figure><img src="image/Rax4.jpg" alt="profileLogo"></figure> 
-              <div class="name">
-                  <h2>Ronny sharma</h2>
-                  <h5>last seen today at 8:40 am</h5>
-              </div>
-           </div>
-             <div class="f2">
-                 <div class="searchbar">
-                     <div role="button" title="Search" class="searchicon">
-                    <span>
-                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M15.9 14.3H15l-.3-.3c1-1.1 1.6-2.7 1.6-4.3 0-3.7-3-6.7-6.7-6.7S3 6 3 9.7s3 6.7 6.7 6.7c1.6 0 3.2-.6 4.3-1.6l.3.3v.8l5.1 5.1 1.5-1.5-5-5.2zm-6.2 0c-2.6 0-4.6-2.1-4.6-4.6s2.1-4.6 4.6-4.6 4.6 2.1 4.6 4.6-2 4.6-4.6 4.6z"></path></svg>
-                    </span>
-                     </div>
-                 </div>
-                 <div role="button" title="setting" class="profileSetting">
-                   <span>
-                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12 7a2 2 0 1 0-.001-4.001A2 2 0 0 0 12 7zm0 2a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 9zm0 6a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 15z"></path></svg>
-                   </span>
-                 </div>
-             </div>
-            </div>
-            <div class="Rmain">
-              <p>8 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae nam adipisci
-                corrupti perspiciatis porro quod! Quos dolore nesciunt sequi temporibus!
-             </p> 
-           </div>
-        </div>  
-        <!--9 -->
-        <div class="R2 product" id="product9" style="display: none;">
-            <div class="R2child">
-              <div class="f1">
-                 <figure><img src="image/Rax1.jpg" alt="profileLogo"></figure> 
-                <div class="name">
-                    <h2>Ronny sharma</h2>
-                    <h5>last seen today at 8:40 am</h5>
-                </div>
-             </div>
-               <div class="f2">
-                   <div class="searchbar">
-                       <div role="button" title="Search" class="searchicon">
-                      <span>
-                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M15.9 14.3H15l-.3-.3c1-1.1 1.6-2.7 1.6-4.3 0-3.7-3-6.7-6.7-6.7S3 6 3 9.7s3 6.7 6.7 6.7c1.6 0 3.2-.6 4.3-1.6l.3.3v.8l5.1 5.1 1.5-1.5-5-5.2zm-6.2 0c-2.6 0-4.6-2.1-4.6-4.6s2.1-4.6 4.6-4.6 4.6 2.1 4.6 4.6-2 4.6-4.6 4.6z"></path></svg>
-                      </span>
-                       </div>
-                   </div>
-                   <div role="button" title="setting" class="profileSetting">
-                     <span>
-                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12 7a2 2 0 1 0-.001-4.001A2 2 0 0 0 12 7zm0 2a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 9zm0 6a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 15z"></path></svg>
-                     </span>
-                   </div>
-               </div>
-              </div>
-              <div class="Rmain">
-                <p>9 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae nam adipisci
-                  corrupti perspiciatis porro quod! Quos dolore nesciunt sequi temporibus!
-               </p> 
-             </div>
-          </div>  
-          <!-- 10 -->
-          <div class="R2 product" id="product10" style="display: none;">
-              <div class="R2child">
-                <div class="f1">
-                   <figure><img src="image/Alexa.jpg" alt="profileLogo"></figure> 
-                  <div class="name">
-                      <h2>Ronny sharma</h2>
-                      <h5>last seen today at 8:40 am</h5>
-                  </div>
-               </div>
-                 <div class="f2">
-                     <div class="searchbar">
-                         <div role="button" title="Search" class="searchicon">
-                        <span>
-                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M15.9 14.3H15l-.3-.3c1-1.1 1.6-2.7 1.6-4.3 0-3.7-3-6.7-6.7-6.7S3 6 3 9.7s3 6.7 6.7 6.7c1.6 0 3.2-.6 4.3-1.6l.3.3v.8l5.1 5.1 1.5-1.5-5-5.2zm-6.2 0c-2.6 0-4.6-2.1-4.6-4.6s2.1-4.6 4.6-4.6 4.6 2.1 4.6 4.6-2 4.6-4.6 4.6z"></path></svg>
-                        </span>
-                         </div>
-                     </div>
-                     <div role="button" title="setting" class="profileSetting">
-                       <span>
-                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12 7a2 2 0 1 0-.001-4.001A2 2 0 0 0 12 7zm0 2a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 9zm0 6a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 15z"></path></svg>
-                       </span>
-                     </div>
-                 </div>
-                </div>
-                <div class="Rmain">
-                  <p>10 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae nam adipisci
-                    corrupti perspiciatis porro quod! Quos dolore nesciunt sequi temporibus!
-                 </p> 
-               </div>
-            </div>  
-            <!-- 11 -->
-            <div class="R2 product" id="product11" style="display: none;">
-                <div class="R2child">
-                  <div class="f1">
-                     <figure><img src="image/logo.jpg" alt="profileLogo"></figure> 
-                    <div class="name">
-                        <h2>Ronny sharma</h2>
-                        <h5>last seen today at 8:40 am</h5>
-                    </div>
-                 </div>
-                   <div class="f2">
-                       <div class="searchbar">
-                           <div role="button" title="Search" class="searchicon">
-                          <span>
-                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M15.9 14.3H15l-.3-.3c1-1.1 1.6-2.7 1.6-4.3 0-3.7-3-6.7-6.7-6.7S3 6 3 9.7s3 6.7 6.7 6.7c1.6 0 3.2-.6 4.3-1.6l.3.3v.8l5.1 5.1 1.5-1.5-5-5.2zm-6.2 0c-2.6 0-4.6-2.1-4.6-4.6s2.1-4.6 4.6-4.6 4.6 2.1 4.6 4.6-2 4.6-4.6 4.6z"></path></svg>
-                          </span>
-                           </div>
-                       </div>
-                       <div role="button" title="setting" class="profileSetting">
-                         <span>
-                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12 7a2 2 0 1 0-.001-4.001A2 2 0 0 0 12 7zm0 2a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 9zm0 6a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 15z"></path></svg>
-                         </span>
-                       </div>
-                   </div>
-                  </div>
-                  <div class="Rmain">
-                    <p>11 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae nam adipisci
-                      corrupti perspiciatis porro quod! Quos dolore nesciunt sequi temporibus!
-                   </p> 
-                 </div>
-              </div>  
-              <!-- 12 -->
-              <div class="R2 product" id="product12" style="display: none;">
-                  <div class="R2child">
-                    <div class="f1">
-                       <figure><img src="image/Rax2.jpg" alt="profileLogo"></figure> 
-                      <div class="name">
-                          <h2>Ronny sharma</h2>
-                          <h5>last seen today at 8:40 am</h5>
-                      </div>
-                   </div>
-                     <div class="f2">
-                         <div class="searchbar">
-                             <div role="button" title="Search" class="searchicon">
-                            <span>
-                               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M15.9 14.3H15l-.3-.3c1-1.1 1.6-2.7 1.6-4.3 0-3.7-3-6.7-6.7-6.7S3 6 3 9.7s3 6.7 6.7 6.7c1.6 0 3.2-.6 4.3-1.6l.3.3v.8l5.1 5.1 1.5-1.5-5-5.2zm-6.2 0c-2.6 0-4.6-2.1-4.6-4.6s2.1-4.6 4.6-4.6 4.6 2.1 4.6 4.6-2 4.6-4.6 4.6z"></path></svg>
-                            </span>
-                             </div>
-                         </div>
-                         <div role="button" title="setting" class="profileSetting">
-                           <span>
-                               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12 7a2 2 0 1 0-.001-4.001A2 2 0 0 0 12 7zm0 2a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 9zm0 6a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 15z"></path></svg>
-                           </span>
-                         </div>
-                     </div>
-                    </div>
-                    <div class="Rmain">
-                      <p>12 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae nam adipisci
-                        corrupti perspiciatis porro quod! Quos dolore nesciunt sequi temporibus!
-                     </p> 
-                   </div>
-                </div>  
-                <!-- 13 -->
-                <div class="R2 product" id="product13" style="display: none;">
-                    <div class="R2child">
-                      <div class="f1">
-                         <figure><img src="image/Alexa3.jpg" alt="profileLogo"></figure> 
-                        <div class="name">
-                            <h2>Ronny sharma</h2>
-                            <h5>last seen today at 8:40 am</h5>
-                        </div>
-                     </div>
-                       <div class="f2">
-                           <div class="searchbar">
-                               <div role="button" title="Search" class="searchicon">
-                              <span>
-                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M15.9 14.3H15l-.3-.3c1-1.1 1.6-2.7 1.6-4.3 0-3.7-3-6.7-6.7-6.7S3 6 3 9.7s3 6.7 6.7 6.7c1.6 0 3.2-.6 4.3-1.6l.3.3v.8l5.1 5.1 1.5-1.5-5-5.2zm-6.2 0c-2.6 0-4.6-2.1-4.6-4.6s2.1-4.6 4.6-4.6 4.6 2.1 4.6 4.6-2 4.6-4.6 4.6z"></path></svg>
-                              </span>
-                               </div>
-                           </div>
-                           <div role="button" title="setting" class="profileSetting">
-                             <span>
-                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12 7a2 2 0 1 0-.001-4.001A2 2 0 0 0 12 7zm0 2a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 9zm0 6a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 15z"></path></svg>
-                             </span>
-                           </div>
-                       </div>
-                      </div>
-                      <div class="Rmain">
-                        <p>13 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae nam adipisci
-                          corrupti perspiciatis porro quod! Quos dolore nesciunt sequi temporibus!
-                       </p> 
-                     </div>
-                  </div> 
-                   <!-- 14 -->
-                  <div class="R2 product" id="product14" style="display: none;">
-                      <div class="R2child">
-                        <div class="f1">
-                           <figure><img src="image/Rax3.jpg" alt="profileLogo"></figure> 
-                          <div class="name">
-                              <h2>Rocky sharma</h2>
-                              <h5>last seen today at 8:40 am</h5>
-                          </div>
-                       </div>
-                         <div class="f2">
-                             <div class="searchbar">
-                                 <div role="button" title="Search" class="searchicon">
-                                <span>
-                                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M15.9 14.3H15l-.3-.3c1-1.1 1.6-2.7 1.6-4.3 0-3.7-3-6.7-6.7-6.7S3 6 3 9.7s3 6.7 6.7 6.7c1.6 0 3.2-.6 4.3-1.6l.3.3v.8l5.1 5.1 1.5-1.5-5-5.2zm-6.2 0c-2.6 0-4.6-2.1-4.6-4.6s2.1-4.6 4.6-4.6 4.6 2.1 4.6 4.6-2 4.6-4.6 4.6z"></path></svg>
-                                </span>
-                                 </div>
-                             </div>
-                             <div role="button" title="setting" class="profileSetting">
-                               <span>
-                                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12 7a2 2 0 1 0-.001-4.001A2 2 0 0 0 12 7zm0 2a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 9zm0 6a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 15z"></path></svg>
-                               </span>
-                             </div>
-                         </div>
-                        </div>
-                        <div class="Rmain">
-                          <p>14 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae nam adipisci
-                            corrupti perspiciatis porro quod! Quos dolore nesciunt sequi temporibus!
-                         </p> 
-                       </div>
-                    </div> 
-      <!-- chat -->
-      <div class="chat_bg">
-      </div>
-    </div>
-     </div>
-  <!-- </div> -->
- </section>
-    </main>
+       </div>
+   </div>
 
-    <script src="./js/main.js"></script>
+   <!-- secondLine -->
+<div class="MainContent-wrapper" id="mainContent-wrapper">
+    <div class="cnt-head wow fadeIn  animated" style="visibility: visible; animation-name: fadeIn;">
+        <h2>Fresh recommendations</h2>
+    </div> 
+<div class="MainContent1">
+    <div class="Cnt01 cmn1">
+        <figure>
+            <span class="span1" style="position: absolute;">Featured</span>
+            <img src="image/cover5.jpg" alt="img1">
+            <span class="span2">
+             <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
+                 <path class="rui-77aaa"
+                  d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z">
+              </path>
+          </svg>
+        </span>
+        </figure>
+        <figcaption class="fig1">
+            <h2>₹ 23,00,000</h2>
+             <h6>2014-65,00 km</h6>
+             <p>Lorem ipsum dolor sit amet</p>
+             <span>AUG 23</span>
+        </figcaption>
+    </div>
+    <div class="Cnt02 cmn1">
+        <figure>
+           <span class="span1" style="position: absolute;">Featured</span>
+            <img src="image/cover6.jpg" alt="img1">
+            <span class="span2">
+             <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
+                 <path class="rui-77aaa"
+                  d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z">
+              </path>
+          </svg>
+        </span>
+        </figure>
+        <figcaption class="fig1">
+            <h2>₹ 23,00,000</h2>
+             <h6>2014-65,00 km</h6>
+             <p>Lorem ipsum dolor sit amet</p>
+             <span>AUG 23</span>
+        </figcaption>
+    </div>
+    <div class="Cnt03 cmn1">
+        <figure>
+            <img src="image/cover7.jpg" alt="img1">
+            <span class="span2">
+             <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
+                 <path class="rui-77aaa"
+                  d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z">
+              </path>
+          </svg>
+        </span>
+        </figure>
+        <figcaption>
+            <h2>₹ 23,00,000</h2>
+             <h6>2014-65,00 km</h6>
+             <p>Lorem ipsum dolor sit amet</p>
+             <span>AUG 23</span>
+        </figcaption>
+    </div>
+    <div class="Cnt04 cmn1">
+        <figure>  
+            <img src="image/cover8.jpg" alt="img1">
+            <span class="span2">
+                <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
+                    <path class="rui-77aaa"
+                     d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z">
+                 </path>
+             </svg>
+           </span>
+        </figure>
+        <figcaption>
+            <h2>₹ 23,00,000</h2>
+             <h6>2014-65,00 km</h6>
+             <p>Lorem ipsum dolor sit amet</p>
+             <span>AUG 23</span>
+        </figcaption>
+    </div>
+  </div>
+</div>
+
+<!-- step3 -->
+
+<div class="MainContent-wrapper" id="mainContent-wrapper">
+<div class="MainContent1 wow fadeIn  animated" style="visibility: visible; animation-name: fadeIn;">
+    <div class="Cnt01 cmn1">
+        <figure>
+            <img src="image/cover9.jpg" alt="img1">
+            <span class="span2">
+             <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
+                 <path class="rui-77aaa"
+                  d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z">
+              </path>
+          </svg>
+        </span>
+        </figure>
+        <figcaption class="fig1">
+            <h2>₹ 20,0,000</h2>
+             <h6>2014-65,00 km</h6>
+             <p>Lorem ipsum dolor sit amet</p>
+             <span>AUG 23</span>
+        </figcaption>
+    </div>
+    <div class="Cnt02 cmn1">
+        <figure>
+            <img src="image/cover10.jpg" alt="img1">
+            <span class="span2">
+             <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
+                 <path class="rui-77aaa"
+                  d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z">
+              </path>
+          </svg>
+        </span>
+        </figure>
+        <figcaption class="fig1">
+            <h2>₹ 21,00,000</h2>
+             <h6>2014-65,00 km</h6>
+             <p>Lorem ipsum dolor sit amet</p>
+             <span>AUG 23</span>
+        </figcaption>
+    </div>
+    <div class="Cnt03 cmn1">
+        <figure>
+            <img src="image/cover11.jpg" alt="img1">
+            <span class="span2">
+             <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
+                 <path class="rui-77aaa"
+                  d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z">
+              </path>
+          </svg>
+        </span>
+        </figure>
+        <figcaption>
+            <h2>₹ 19,00,000</h2>
+             <h6>2014-65,00 km</h6>
+             <p>Lorem ipsum dolor sit amet</p>
+             <span>AUG 23</span>
+        </figcaption>
+    </div>
+    <div class="Cnt04 cmn1">
+        <figure>  
+            <img src="image/cover12.jpg" alt="img1">
+            <span class="span2">
+                <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
+                    <path class="rui-77aaa"
+                     d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z">
+                 </path>
+             </svg>
+           </span>
+        </figure>
+        <figcaption>
+            <h2>₹17,00,000</h2>
+             <h6>2014-65,00 km</h6>
+             <p>Lorem ipsum dolor sit amet</p>
+             <span>AUG 23</span>
+        </figcaption>
+    </div>
+  </div>
+</div>
+
+<!-- step4 -->
+
+<div class="MainContent-wrapper" id="mainContent-wrapper4">
+    <div class="MainContent1 wow fadeIn  animated" style="visibility: visible; animation-name: fadeIn;">
+        <div class="Cnt04 cmn1">
+            <figure>  
+                <img src="image/cover12.jpg" alt="img1">
+                <span class="span2">
+                    <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
+                        <path class="rui-77aaa"
+                         d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z">
+                     </path>
+                 </svg>
+               </span>
+            </figure>
+            <figcaption>
+                <h2>₹700</h2>
+                 <h6>2014-65,00 km</h6>
+                 <p>Lorem ipsum dolor sit amet</p>
+                 <span>AUG 23</span>
+            </figcaption>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+<!-- load more -->
+<div class="load-more">
+   <a href="#">load more</a> 
+</div>
+<!-- finish -->
+<!-- extra -->
+<div class="mainfrt-wrp wow fadeIn  animated" style="visibility: visible; animation-name: fadeIn;">
+    <button class="ft01" onclick="openProduct('product1')">Featured</button>
+    <button class="ft01" onclick="openProduct('product2')">New Release</button>
+    <button class="ft01" onclick="openProduct('product3')">On Sale</button>
+  </div>
+  <!-- f1 -->
+<div class="main Featuredbtn product"  id="product1">
+<div class="container">
+    <div class="MainContent-wrapper" id="mainContent-wrapper">
+        <div class="MainContent1 wow fadeIn  animated" style="visibility: visible; animation-name: fadeIn;">
+            <div class="Cnt01 cmn1">
+                <figure>
+                    <img src="image/cover9.jpg" alt="img1">
+                    <span class="span2">
+                     <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
+                         <path class="rui-77aaa"
+                          d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z">
+                      </path>
+                  </svg>
+                </span>
+                </figure>
+                <figcaption class="fig1">
+                    <h2>₹ 20,0,000</h2>
+                     <h6>2014-65,00 km</h6>
+                     <p>Lorem ipsum dolor sit amet</p>
+                     <span>AUG 23</span>
+                </figcaption>
+            </div>
+            <div class="Cnt02 cmn1">
+                <figure>
+                    <img src="image/cover10.jpg" alt="img1">
+                    <span class="span2">
+                     <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
+                         <path class="rui-77aaa"
+                          d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z">
+                      </path>
+                  </svg>
+                </span>
+                </figure>
+                <figcaption class="fig1">
+                    <h2>₹ 21,00,000</h2>
+                     <h6>2014-65,00 km</h6>
+                     <p>Lorem ipsum dolor sit amet</p>
+                     <span>AUG 23</span>
+                </figcaption>
+            </div>
+            <div class="Cnt03 cmn1">
+                <figure>
+                    <img src="image/cover11.jpg" alt="img1">
+                    <span class="span2">
+                     <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
+                         <path class="rui-77aaa"
+                          d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z">
+                      </path>
+                  </svg>
+                </span>
+                </figure>
+                <figcaption>
+                    <h2>₹ 19,00,000</h2>
+                     <h6>2014-65,00 km</h6>
+                     <p>Lorem ipsum dolor sit amet</p>
+                     <span>AUG 23</span>
+                </figcaption>
+            </div>
+            <div class="Cnt04 cmn1">
+                <figure>  
+                    <img src="image/cover12.jpg" alt="img1">
+                    <span class="span2">
+                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
+                            <path class="rui-77aaa"
+                             d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z">
+                         </path>
+                     </svg>
+                   </span>
+                </figure>
+                <figcaption>
+                    <h2>₹17,00,000</h2>
+                     <h6>2014-65,00 km</h6>
+                     <p>Lorem ipsum dolor sit amet</p>
+                     <span>AUG 23</span>
+                </figcaption>
+            </div>
+          </div>
+        </div>
+</div>
+</div>
+<!--  -->
+ <!-- f2 -->
+ <div class="main Featuredbtn product" id="product2" style="display:none;">
+    <div class="container">
+        <div class="MainContent-wrapper" id="mainContent-wrapper">
+            <div class="MainContent1 wow fadeIn  animated" style="visibility: visible; animation-name: fadeIn;">
+                <div class="Cnt01 cmn1">
+                    <figure>
+                        <img src="image/cover1.jpg" alt="img1">
+                        <span class="span2">
+                         <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
+                             <path class="rui-77aaa"
+                              d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z">
+                          </path>
+                      </svg>
+                    </span>
+                    </figure>
+                    <figcaption class="fig1">
+                        <h2>₹ 20,0,000</h2>
+                         <h6>2014-65,00 km</h6>
+                         <p>Lorem ipsum dolor sit amet</p>
+                         <span>AUG 23</span>
+                    </figcaption>
+                </div>
+                <div class="Cnt02 cmn1">
+                    <figure>
+                        <img src="image/cover2.jpg" alt="img1">
+                        <span class="span2">
+                         <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
+                             <path class="rui-77aaa"
+                              d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z">
+                          </path>
+                      </svg>
+                    </span>
+                    </figure>
+                    <figcaption class="fig1">
+                        <h2>₹ 21,00,000</h2>
+                         <h6>2014-65,00 km</h6>
+                         <p>Lorem ipsum dolor sit amet</p>
+                         <span>AUG 23</span>
+                    </figcaption>
+                </div>
+                <div class="Cnt03 cmn1">
+                    <figure>
+                        <img src="image/cover3.jpg" alt="img1">
+                        <span class="span2">
+                         <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
+                             <path class="rui-77aaa"
+                              d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z">
+                          </path>
+                      </svg>
+                    </span>
+                    </figure>
+                    <figcaption>
+                        <h2>₹ 19,00,000</h2>
+                         <h6>2014-65,00 km</h6>
+                         <p>Lorem ipsum dolor sit amet</p>
+                         <span>AUG 23</span>
+                    </figcaption>
+                </div>
+                <div class="Cnt04 cmn1 wow fadeIn  animated" style="visibility: visible; animation-name: fadeIn;">
+                    <figure>  
+                        <img src="image/cover4.jpg" alt="img1">
+                        <span class="span2">
+                            <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
+                                <path class="rui-77aaa"
+                                 d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z">
+                             </path>
+                         </svg>
+                       </span>
+                    </figure>
+                    <figcaption>
+                        <h2>₹17,00,000</h2>
+                         <h6>2014-65,00 km</h6>
+                         <p>Lorem ipsum dolor sit amet</p>
+                         <span>AUG 23</span>
+                    </figcaption>
+                </div>
+              </div>
+            </div>
+      </div>
+    </div>
+    <!--  -->
+     <!-- f3 -->
+ <div class="main Featuredbtn product" id="product3" style="display:none;">
+    <div class="container">
+        <div class="MainContent-wrapper" id="mainContent-wrapper">
+            <div class="MainContent1 wow fadeIn  animated" style="visibility: visible; animation-name: fadeIn;">
+                <div class="Cnt01 cmn1">
+                    <figure>
+                        <img src="image/cover5.jpg" alt="img1">
+                        <span class="span2">
+                         <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
+                             <path class="rui-77aaa"
+                              d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z">
+                          </path>
+                      </svg>
+                    </span>
+                    </figure>
+                    <figcaption class="fig1">
+                        <h2>₹ 2000</h2>
+                         <h6>2014-65,00 km</h6>
+                         <p>Lorem ipsum dolor sit amet</p>
+                         <span>AUG 24</span>
+                    </figcaption>
+                </div>
+                <div class="Cnt02 cmn1">
+                    <figure>
+                        <img src="image/cover6.jpg" alt="img1">
+                        <span class="span2">
+                         <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
+                             <path class="rui-77aaa"
+                              d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z">
+                          </path>
+                      </svg>
+                    </span>
+                    </figure>
+                    <figcaption class="fig1">
+                        <h2>₹ 29,00,000</h2>
+                         <h6>2014-65,00 km</h6>
+                         <p>Lorem ipsum dolor sit amet</p>
+                         <span>AUG 25</span>
+                    </figcaption>
+                </div>
+                <div class="Cnt03 cmn1">
+                    <figure>
+                        <img src="image/cover7.jpg" alt="img1">
+                        <span class="span2">
+                         <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
+                             <path class="rui-77aaa"
+                              d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z">
+                          </path>
+                      </svg>
+                    </span>
+                    </figure>
+                    <figcaption>
+                        <h2>₹ 39,00,000</h2>
+                         <h6>2014-65,00 km</h6>
+                         <p>Lorem ipsum dolor sit amet</p>
+                         <span>AUG 26</span>
+                    </figcaption>
+                </div>
+                <div class="Cnt04 cmn1">
+                    <figure>  
+                        <img src="image/cover8.jpg" alt="img1">
+                        <span class="span2">
+                            <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
+                                <path class="rui-77aaa"
+                                 d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z">
+                             </path>
+                         </svg>
+                       </span>
+                    </figure>
+                    <figcaption>
+                        <h2>₹47,00,000</h2>
+                         <h6>2014-65,00 km</h6>
+                         <p>Lorem ipsum dolor sit amet</p>
+                         <span>AUG 22   </span>
+                    </figcaption>
+                </div>
+              </div>
+            </div>
+            <div class="MainContent-wrapper" id="mainContent-wrapper">
+                <div class="MainContent1 wow fadeIn  animated" style="visibility: visible; animation-name: fadeIn;">
+                    <div class="Cnt01 cmn1">
+                        <figure>
+                            <img src="image/cover2.jpg" alt="img1">
+                            <span class="span2">
+                             <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
+                                 <path class="rui-77aaa"
+                                  d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z">
+                              </path>
+                          </svg>
+                        </span>
+                        </figure>
+                        <figcaption class="fig1">
+                            <h2>₹ 12000</h2>
+                             <h6>2014-65,00 km</h6>
+                             <p>Lorem ipsum dolor sit amet</p>
+                             <span>AUG 24</span>
+                        </figcaption>
+                    </div>
+                    <div class="Cnt02 cmn1">
+                        <figure>
+                            <img src="image/cover3.jpg" alt="img1">
+                            <span class="span2">
+                             <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
+                                 <path class="rui-77aaa"
+                                  d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z">
+                              </path>
+                          </svg>
+                        </span>
+                        </figure>
+                        <figcaption class="fig1">
+                            <h2>₹ 24,00,000</h2>
+                             <h6>2014-65,00 km</h6>
+                             <p>Lorem ipsum dolor sit amet</p>
+                             <span>AUG 25</span>
+                        </figcaption>
+                    </div>
+                    <div class="Cnt03 cmn1">
+                        <figure>
+                            <img src="image/cover11.jpg" alt="img1">
+                            <span class="span2">
+                             <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
+                                 <path class="rui-77aaa"
+                                  d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z">
+                              </path>
+                          </svg>
+                        </span>
+                        </figure>
+                        <figcaption>
+                            <h2>₹ 33,00,000</h2>
+                             <h6>2014-65,00 km</h6>
+                             <p>Lorem ipsum dolor sit amet</p>
+                             <span>AUG 26</span>
+                        </figcaption>
+                    </div>
+    
+                  </div>
+                </div>
+       </div>
+    </div>
+    <!--  -->
+<!-- olxlastpart -->
+<div class="OLX-app">
+    <div class="container">
+        <div class="olxapp_content wow fadeIn  animated" style="visibility: visible; animation-name: fadeIn;">
+            <div class="item1">
+                <img src="image/phone-app.png" alt="">
+            </div>
+            <div class="item1">
+                <h1>TRY THE OLX APP</h1>
+                <p>Buy, sell and find just about anything using <br> the app on your mobile.</p>
+            </div>
+            <div class="item1" id="itme2">
+            <h5>GET YOUR APP TODAY</h5>
+            <div class="img-wrp"> 
+             <a href="index.html"> <img src="image/appstore_2x.png" alt="play"></a>  
+             <a href="index.html"> <img src="image/playstore_2x.png" alt="store"></a>  
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+ 
+<!-- messageBox -->
+<button class="open-button" onclick="openForm()">
+    <i class="far fa-comment-dots" id="i"></i>
+</button>
+<div class="chat-popup" id="myForm">
+   <div class="headchat">
+       <h2>Hi there</h2>
+       <p>welcome to OLX. we reply to every sigle message so feel  free to ask us anything</p>
+   </div>
+  <form action="#">
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+
+      <div class="inpt">
+          <input type="chat"  name="chat" placeholder="Send a message..." autocomplete="off">
+      </div>
+  </form>
+    
+     
+    <button type="button" class="btn cancel" onclick="closeForm()">
+        <svg focusable="false" viewBox="0 0 16 14" width="28" height="25" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M.116 4.884l1.768-1.768L8 9.232l6.116-6.116 1.768 1.768L8 12.768.116 4.884z"></path></svg>
+    </button>
+  </div>
+<!--  -->
+
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-cnt wow fadeIn  animated" style="visibility: visible; animation-name: fadeIn;">
+                <div class="content1">
+                    <h2>popular location</h2>
+                    <ul>
+                        <li> <a href="#">Kolkata </a></li>
+                        <li> <a href="#">  Mumbai</a></li>
+                        <li> <a href="#">Chennai</a></li>
+                         <li> <a href="#">Pune</a></li>
+                    </ul>
+                </div>
+                <div class="content1">
+                    <h2>popular location</h2>
+                    <ul>
+                        <li> <a href="#">Bhubaneshwarz </a></li>
+                        <li> <a href="#">  hydrabad</a></li>
+                        <li> <a href="#">Chandigarh</a></li>
+                         <li> <a href="#">Nashik</a></li>
+                    </ul>
+                </div>
+                <div class="content1">
+                    <h2>About us</h2>
+                    <ul>
+                        <li> <a href="#">About OLX Group </a></li>
+                        <li> <a href="#">careers</a></li>
+                        <li> <a href="#">contact us</a></li>
+                         <li> <a href="#">OLXpeople</a></li>
+                         <li> <a href="#">AasaanJobs</a></li>
+                    </ul>
+                </div>
+                <div class="content1">
+                    <h2>OLX</h2>
+                    <ul>
+                        <li> <a href="#">Help  </a></li>
+                        <li> <a href="#">Sitemap</a></li>
+                        <li> <a href="#">Legal & privacy information</a></li>
+                    </ul>
+                </div>
+                <div class="content1 contentlast wow fadeIn  animated" style="visibility: visible; animation-name: fadeIn;">
+                    <h2>Follow Us</h2>
+                    <ul>
+                        <li> <a href="#"><svg width="48px" height="48px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-77aaa" d="M512 85.325c235.648 0 426.667 191.019 426.667 426.667s-191.019 426.667-426.667 426.667c-235.648 0-426.667-191.019-426.667-426.667s191.019-426.667 426.667-426.667zM512 150.605c-199.595 0-361.429 161.792-361.429 361.387 0 199.637 161.835 361.429 361.429 361.429s361.429-161.792 361.429-361.429c0-199.595-161.835-361.387-361.429-361.387zM616.789 301.133v57.6h-61.312c-15.403 0-28.8 14.848-28.8 31.616v0 63.147h90.069v53.845h-90.069v215.509h-67.115v-215.509h-78.592v-53.845h78.592v-74.325c0-42.752 34.517-78.037 76.672-78.037v0h80.555z"></path></svg> 
+                         </a></li>
+                        <li> <a href="#"><svg width="48px" height="48px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-77aaa" d="M511.979 85.321c235.648 0 426.667 191.019 426.667 426.667s-191.019 426.667-426.667 426.667c-235.605 0-426.667-191.019-426.667-426.667s191.061-426.667 426.667-426.667zM511.979 150.601c-199.595 0-361.429 161.792-361.429 361.387 0 199.637 161.835 361.429 361.429 361.429 199.637 0 361.429-161.792 361.429-361.429 0-199.595-161.792-361.387-361.429-361.387zM619.721 291.247c70.784 0 128.384 57.643 128.384 128.469v0 184.619c0 70.784-57.6 128.427-128.384 128.427v0h-215.424c-70.827 0-128.384-57.643-128.384-128.427v0-184.619c0-70.827 57.557-128.469 128.384-128.469v0zM619.721 335.791h-215.424c-46.293 0-83.883 37.632-83.883 83.925v0 184.619c0 46.293 37.589 83.925 83.883 83.925v0h215.424c46.251 0 83.883-37.632 83.883-83.925v0-184.619c0-46.293-37.632-83.925-83.883-83.925v0zM512.021 405.248c63.659 0 115.456 49.195 115.456 109.653 0 59.904-50.688 106.752-115.456 106.752-63.659 0-115.499-49.195-115.499-109.653 0-59.861 50.688-106.752 115.499-106.752zM512.021 444.885c-41.813 0-75.819 31.403-75.819 70.016 0 37.291 35.413 70.016 75.819 70.016s75.776-32.725 75.776-70.016c0-38.613-34.005-70.016-75.776-70.016zM630.857 358.852c23.296 0 43.008 19.712 43.008 43.008s-19.712 43.008-43.008 43.008c-23.296 0-43.008-19.712-43.008-43.008s19.712-43.008 43.008-43.008zM630.857 386.927c-8.661 0-15.019 6.272-15.019 14.933 0 8.704 6.357 14.976 15.019 14.976s14.976-6.272 14.976-14.976c0-8.661-6.315-14.933-14.976-14.933z"></path></svg>
+                        </a></li>
+                        <li> <a href="#"><svg width="48px" height="48px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-77aaa" d="M511.979 85.321c235.648 0 426.667 191.019 426.667 426.667s-191.019 426.667-426.667 426.667c-235.605 0-426.667-191.019-426.667-426.667s191.061-426.667 426.667-426.667zM511.979 150.601c-199.595 0-361.429 161.792-361.429 361.387 0 199.637 161.835 361.429 361.429 361.429 199.637 0 361.429-161.792 361.429-361.429 0-199.595-161.792-361.387-361.429-361.387zM600.499 335.040c25.728 0 51.499 9.6 67.584 25.728 16.085 0 45.013-9.643 57.899-19.328-6.443 19.328-25.771 41.813-38.613 51.499 22.528 0 44.971-9.685 51.456-12.885-12.843 16.085-25.728 32.171-45.013 45.056 6.4 144.768-109.397 263.851-260.608 263.851-51.499 0-99.755-12.885-148.011-38.656 64.341 9.685 119.040-22.528 135.125-38.613-41.856 0-80.427-35.371-83.669-61.141 9.685 0 28.971 3.243 38.656-3.2-54.699-12.885-70.784-54.699-70.784-86.869 9.643 9.685 32.128 9.685 41.813 9.685-32.171-19.328-54.699-70.827-28.971-119.040 48.256 57.899 122.283 90.069 193.067 93.269-3.243-6.4-3.243-12.885-3.243-19.285 0-48.256 41.856-90.069 93.312-90.069z"></path></svg>
+                        </a></li>
+                        <li><a href="#"> <svg width="48px" height="48px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-77aaa" d="M512 85.321c235.648 0 426.667 191.019 426.667 426.667s-191.019 426.667-426.667 426.667c-235.648 0-426.667-191.019-426.667-426.667s191.019-426.667 426.667-426.667zM512 150.601c-199.595 0-361.429 161.792-361.429 361.387 0 199.637 161.835 361.429 361.429 361.429s361.429-161.792 361.429-361.429c0-199.595-161.835-361.387-361.429-361.387zM382.605 321.86l311.125 190.123-311.125 190.165v-380.288z"></path></svg>
+                        </a></li>
+                    </ul>
+                    <div class="appstore">
+                        <a href="index.html"> <img src="image/appstore_2x.png" alt="play"></a>  
+                        <a href="index.html"> <img src="image/playstore_2x.png" alt="store"></a>  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="Cpyrt-wrp">
+                    <div class="frt01">
+                        <h5>other Countries</h5>
+                        <a href="#">Pacific - </a>
+                        <a href="#">South Africa - </a>
+                        <a href="#">Indonesia</a>
+                    </div>
+                    <div class="frt01">
+                        <h5>Free classifieds in india</h5>
+                       <p> .© 2006-2020 OLX</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+<!-- </div> -->
+
+
+
+<!-- script section -->
+<script src="js/jquery.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>  
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
